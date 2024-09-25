@@ -1,0 +1,97 @@
+/* styles.css */
+
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7e9; /* Light green background cuz nature */
+    color: #3e4e50; /* Darker color for text*/
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Styling */
+header {
+    background-image: url('zoo.webp'); /* Add a zoo-themed banner image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a raised effect */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Pushes the navigation to the bottom */
+    height: 200px; /* Set a fixed height for the banner */
+}
+
+/* Navigation Styling */
+nav {
+    background-color: rgba(76, 175, 80, 0.8); /* Semi-transparent forest green */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0.5rem 0; /* Add padding to create some spacing */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #388e3c; /* Darker green on hover */
+    border-radius: 5px;
+}
+
+/* Main Content Styling */
+main {
+    padding: 2rem;
+    background-color: #ffffff; /* White background for content */
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* Soft shadow for a card-like effect */
+    flex: 1; /* Allows the main content to take up remaining space */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #4caf50; /* Match nav bar */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow*/
+}
+
+/* Additional Styling for a Zoo Theme */
+h2 {
+    color: #388e3c; /* Darker green for subheadings */
+}
+
+p {
+    line-height: 1.6;
+}
+
+/*"leaf" style for images */
+img {
+    border: 5px solid #388e3c; /* Green border around images */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    max-width: 100%;
+    height: auto;
+}
